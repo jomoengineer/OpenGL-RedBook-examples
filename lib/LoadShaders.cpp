@@ -5,6 +5,7 @@
 //////////////////////////////////////////////////////////////////////////////
 
 #include <cstdlib>
+#include <cstdio>
 #include <iostream>
 
 #include <GL3/gl3w.h>
@@ -94,7 +95,7 @@ LoadShaders(ShaderInfo* shaders)
         }
 
         glAttachShader( program, shader );
-        
+
         ++entry;
     }
 
@@ -117,7 +118,7 @@ LoadShaders(ShaderInfo* shaders)
             glDeleteShader( entry->shader );
             entry->shader = 0;
         }
-        
+
         return 0;
     }
 
@@ -128,5 +129,3 @@ LoadShaders(ShaderInfo* shaders)
 #ifdef __cplusplus
 }
 #endif // __cplusplus
-
-

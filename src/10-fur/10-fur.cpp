@@ -11,8 +11,9 @@
 
 #include "vmath.h"
 
-#include <stdio.h>
-#include <stdlib.h>
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
 
 BEGIN_APP_DECLARATION(FurApplication)
     // Override functions from base class

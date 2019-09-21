@@ -3,7 +3,8 @@
 #include "vbm.h"
 #include "vgl.h"
 
-#include <stdio.h>
+#include <cstdio>
+#include <cstring>
 
 VBObject::VBObject(void)
     : m_vao(0),
